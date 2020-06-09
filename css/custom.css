@@ -1,0 +1,126 @@
+body
+{
+  margin-top: 100px;
+  box-sizing: border-box;
+ font-family: 'Open Sans', sans-serif;
+}
+.navbar-nav{
+	float:right;
+}
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+     color: cyan;
+	 box-shadow: inset 0 0 5px #33ffff,
+                inset 0 0 10px #66ffff;
+  }
+.fa{
+  padding: 20px;
+  text-align:center;
+  text-decoration: none;
+  position: relative;
+  z-index:2;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+.service-icon{
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  background: #ecf6ff;
+  border-radius: 50%;
+  color: #6ab04c;
+  line-height: 60px;
+  font-size: 30px;
+ 
+} 
+
+.cardbody:hover{
+	background: #e5ffff;
+	box-shadow: 0 5px 5px rgba(0,0,0,0.3);
+	transition:0.5s;
+}
+
+.mystyle{
+	background: lightblue;
+	width: 100%;
+	display: block;
+	position: absolute;
+	top: 0px;
+	transition: all .6s;
+	text-align:center;
+    margin-left: -6%;
+	min-height: 280px;
+
+}
+.card-body{
+	vertical-align:top;
+	display: inline-block;
+	margin: 20px 0px 20px 20px;
+	min-height: 200px;
+}
+.card-body:hover .mystyle{
+	top:250px;
+	}
+	
+.img-responsive{
+	width: 100px;
+	height: 100px;
+	}
+	
+.card-icon{
+  font-size: 28px;
+  background: #00008B;
+  width: 60px;
+  height: 60px;
+  line-height: 60px !important;
+  border-radius: 50%;
+  transition: 0.3s linear;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 4%;
+  margin-left: 42%;
+   }
+   
+ .card:hover .card-icon{
+  background: none;
+  color:#00008B;
+  transform: scale(1.6);
+}
+
+.card1 p{
+  margin-top: 20px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  max-height: 0;
+  
+}
+
+.card1:hover p{
+  max-height: 40px;
+  opacity: 1;
+}
+.heading{
+	font-family: Times New Roman;
+	text-transform: UPPERCASE;
+	font-weight: 800;
+}
